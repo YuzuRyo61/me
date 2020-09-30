@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Cascadia Code';
+    src: local('Cascadia Code Regular'),
+         url('fonts/CascadiaMono-Regular.ttf') format('truetype'),
+         url('fonts/CascadiaMono-Regular.woff2') format('woff');
+}
+
+body {
+    font-family: "Cascadia Code", monospace;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    display: inline-block;
+    max-width: 800px;
+    text-align: left;
+}
+
+.project-section {
+    padding: 5px 5px;
+    border: white 2px solid;
+    margin: 20px 0;
+}
+
+.project-section .project-title {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 6px;
+    border-bottom: white 1px solid;
+}
+
+.project-section .project-description {
+    padding: 5px 0;
+}
+
+.project-section .project-description p {
+    margin: 0 2px;
+}
+
+.project-section .project-links {
+    border-top: white 1px solid;
+    padding: 5px 0;
+}
+
+a {
+    color: limegreen;
+}
