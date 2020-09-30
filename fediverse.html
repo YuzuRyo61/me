@@ -1,141 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        <!-- INIT -->
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Fediverse is moved to top | YuzuRyo61</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <title>Fediverse | YuzuRyo61</title>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/bs/bootstrap.min.css">
-        <link rel="stylesheet" href="css/fa/css/all.min.css">
-        <style>
-            .fedi-dep {
-                cursor: not-allowed;
-            }
-            #fedi-info li {
-                font-size: 28px;
-            }
-        </style>
-
-        <!-- OG -->
         <meta property="og:title" content="Fediverse | YuzuRyo61">
         <meta property="og:type" content="article">
         <meta property="og:description" content="YuzuRyo61's landing page.">
         <meta property="og:url" content="https://yuzuryo61.me/fediverse.html">
-        <meta property="og:image" content="https://yuzuryo61.me/image/banner.png">
         <meta property="og:site_name" content="YuzuRyo61">
+        <meta property="og:image" content="https://yuzuryo61.me/ogp.png">
     </head>
     <body>
-        <!-- NAVIGATION -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-            <div class="container">
-                <a class="navbar-brand" href="/">YuzuRyo61</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-content" aira-controls="navbar-content" aria-expanded="false" aria-label="Toggle Navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-content">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/">Top</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/profile.html">Profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/projects.html">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="/fediverse.html">Fediverse <span class="sr-only">(Current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/links.html">Links</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
         <div class="container">
-            <!-- MAIN -->
-            <main>
-                <h1>Fediverse</h1>
-                <hr>
-                <div class="py-2">
-                    <p>MastodonやMisskeyの自アカウントの運営情報です。</p>
-                </div>
-                <div class="py-2">
-                    <p><b>凡例: </b></p>
-                    <ul>
-                        <li><span class="badge badge-primary">Mastodon</span> : Mastodonのサーバー</li>
-                        <li><span class="badge badge-info">Misskey</span> : Misskeyのサーバー</li>
-                        <li><span class="badge badge-success">Active</span> : そのインスタンスに対して活動瀕率が高いもの</li>
-                        <li><span class="badge badge-secondary">Available</span> : そのインスタンスで運用しているもの</li>
-                        <li><span class="badge badge-danger">DEPRECATED</span> : 運用を放棄・廃止したもの</li>
-                    </ul>
-                </div>
-                <ul id="fedi-info">
-                    <li><a rel="me" href="https://best-friends.chat/@YuzuRyo61" target="_blank">best-friends.chat</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-success">Active</span></li>
-                    <li><a rel="me" href="https://misskey.io/@YuzuRyo61" target="_blank">misskey.io</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-success">Active</span></li>
-                    <li><a rel="me" href="https://yuzulia.xyz/@YuzuRyo61" target="_blank">yuzulia.xyz</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-success">Active</span></li>
-                    <li><a rel="me" href="https://amemiya.work/@YuzuRyo61" target="_blank">amemiya.work</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://c2.a9z.dev/@YuzuRyo61" target="_blank">c2.a9z.dev</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://co.misskey.io/@YuzuRyo61" target="_blank">co.misskey.io</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://d.c-cha.cc/@YuzuRyo61" target="_blank">d.c-cha.cc</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://ethiopia.server-on.net/@YuzuRyo61" target="_blank">ethiopia.server-on.net</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://heislandmine.work/@YuzuRyo61" target="_blank">heislandmine.work</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://mi-chan.work/@YuzuRyo61" target="_blank">mi-chan.work</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://mastodon.social/@YuzuRyo61" target="_blank">mastodon.social</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://misskey.dev/@YuzuRyo61" target="_blank">misskey.dev</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://misskey.m544.net/@YuzuRyo61" target="_blank">misskey.m544.net</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://misskey.lei202.com/@YuzuRyo61" target="_blank">misskey.lei202.com</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://mstdn.jp/@YuzuRyo61" target="_blank">mstdn.jp</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://nijimiss.moe/@YuzuRyo61" target="_blank">nijimiss.moe</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://odakyu.app/@YuzuRyo61" target="_blank">odakyu.app</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://pawoo.net/@user_38833477" target="_blank">pawoo.net</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://qiitadon.com/@YuzuRyo61" target="_blank">qiitadon.com</a> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><a rel="me" href="https://suki.tsuki.network/@YuzuRyo61" target="_blank">suki.tsuki.network</a> <span class="badge badge-info">Misskey</span> <span class="badge badge-secondary">Available</span></li>
-                    <li><span class="fedi-dep">friends.cafe</span> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-danger">DEPRECATED</span></li>
-                    <li><span class="fedi-dep">kiritan.work</span> <span class="badge badge-primary">Mastodon</span> <span class="badge badge-danger">DEPRECATED</span></li>
-                </ul>
-                <div class="py-2">
-                    <p>（これらの情報は2020年06月03日現在の情報です。）</p>
-                </div>
-            </main>
+            <p>Fediverse page is moved to index page. Redirecting you.</p>
+            <p>If you didn't move, please follow this <a href="index.html#fediverse">link</a>.</p>
         </div>
-        <!-- FOOTER -->
-        <footer class="py-4 bg-dark text-light">
-            <div class="container text-center">
-                <ul class="nav justify-content-center mb-3">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">TOP</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/profile.html">Profile</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/fediverse.html">Fediverse</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/links.html">Links</a>
-                    </li>
-                </ul>
-
-                <!-- SOCIAL -->
-                <ul class="nav justify-content-center mb-3">
-                    <a class="nav-link" href="https://best-friends.chat/@YuzuRyo61" rel="me" title="Mastodon - best-friends.chat" target="_blank"><i class="fab fa-mastodon"></i></a>
-                    <a class="nav-link" href="https://misskey.io/@YuzuRyo61" rel="me" title="Misskey - misskey.io" target="_blank"><i class="fas fa-user"></i></a>
-                    <a class="nav-link" href="https://yuzulia.xyz/@YuzuRyo61" rel="me" title="Misskey - yuzulia.xyz" target="_blank"><i class="fas fa-user"></i></a>
-                </ul>
-
-                <p><small>Copyright &copy;2019 YuzuRyo61, All Rights Reserved.</small></p>
-            </div>
-        </footer>
-        <!-- JAVASCRIPT -->
-        <script src="js/jquery-3.4.1.slim.min.js" type="text/javascript"></script>
-        <script src="js/bs/bootstrap.bundle.min.js" type="text/javascript"></script>
     </body>
+    <script type="application/javascript">
+        setTimeout(link, 0);
+        function link(){
+            location.href = './index.html#fediverse';
+        }
+    </script>
 </html>
