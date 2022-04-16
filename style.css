@@ -1,12 +1,7 @@
-@font-face {
-    font-family: 'Cascadia Code';
-    src: local('Cascadia Code Regular'),
-         url('fonts/CascadiaMono-Regular.ttf') format('truetype'),
-         url('fonts/CascadiaMono-Regular.woff2') format('woff');
-}
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono&family=DotGothic16&display=swap');
 
 body {
-    font-family: "Cascadia Code", monospace;
+    font-family: 'Azeret Mono', 'DotGothic16', monospace;
     background-color: black;
     color: white;
     text-align: center;
@@ -14,9 +9,21 @@ body {
 
 .container {
     width: 100%;
+    padding-top: 16px;
     display: inline-block;
     max-width: 800px;
     text-align: left;
+}
+
+.heading {
+    text-align: center;
+}
+
+.acct {
+    width: 128px;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 50%;
 }
 
 .project-section {
@@ -46,5 +53,5 @@ body {
 }
 
 a {
-    color: limegreen;
+    color: orange;
 }
